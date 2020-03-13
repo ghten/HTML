@@ -1,0 +1,173 @@
+/****************************************************************
+* Homepage
+******************************************************************/
+/********************************************************************/
+.home-title-top h1 {
+    background: url('../images/home/background-h1.jpg') repeat-x;
+}
+.h1-home {
+    font-weight: 900;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+.catalogue-home h3 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+.line-info a {
+    color: #000;
+}
+.line-info .glyphicon {
+    font-size: 36px;
+}
+.line-info {
+    margin-top: 20px
+}
+.line-info h3 {
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+.line-info a:focus, a:hover {
+    text-decoration: none;
+}
+/****************************category****************************/
+.info-col-last {
+    position: relative;
+} 
+.info-col-last a {
+    border: 4px solid #fff;
+    display: block;
+    overflow: hidden;
+}
+.info-col-last a .col {
+    position: absolute; 
+    z-index: 1; 
+    top: 5%; 
+    left: 8%;
+}
+.col h2 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase; 
+    margin-bottom: 0px;
+}
+.info-col-last a:hover {
+    -webkit-box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    -moz-box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    color: #999;
+} 
+/**************************************************line information*****************/
+.line-info a {
+    color: #000;
+}
+.line-info .glyphicon {
+    font-size: 36px;
+}
+.line-info {
+    margin-top: 20px
+}
+.line-info h3 {
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+.line-info a:focus, a:hover {
+    text-decoration: none;
+}
+.img-effect a {
+    border: 1px solid #ececec;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    display: block;
+    overflow: hidden;
+}
+.img-effect a:hover {
+    -webkit-box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    -moz-box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    box-shadow: 0px 0px 30px -6px rgba(204,204,204,0.74);
+    color: #999;
+} 
+/*******************************************
+*slider
+**********************************************/
+.carousel-caption {
+    left: 10%;
+    bottom: 21%;
+    text-align: left;
+}
+.carousel-caption h3 {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: rgb(3, 3, 3) 3px -2px 6px;
+}
+.carousel-caption p {
+    font-size: 24px;
+    text-shadow: rgb(3, 3, 3) 3px -2px 6px;
+ }
+
+.carousel-caption .btn-default {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+.carousel-control {
+    width: 10%;
+}    
+/************************************************************
+*media queries
+*************************************************************/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .separator-phone > div{
+        margin: 25px 0px;
+    }
+    .home-title-top {
+      padding: 25px 25px 0px 25px;
+    }
+    .home-title-top h1 {
+      border-top: 2px solid #000;
+      padding: 25px 25px 0px 25px;
+      font-size: 32px;
+    }
+    .home-text-top p {
+      border-bottom: 2px solid #000;
+      padding: 0px 25px 25px 25px;
+    }
+    .home-title-top h1 {
+        background: #fff;
+    }
+        /****************slider************************/
+    .carousel-caption {
+        left: 10%;
+        bottom: 0%;
+    }
+    .carousel-caption h3 {
+        font-size: 12px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }    
+ }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     .separator-phone > div{
+        margin: 25px 0px 0px 0px;
+    }
+        /****************slider************************/
+    .carousel-caption {
+        left: 10%;
+        bottom: 0%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .separator-home > div {
+        margin-top: 49px;
+    }
+    /**************************slider****/
+    .carousel-caption {
+        bottom: 5%;
+    }
+}
+
+

@@ -1,0 +1,366 @@
+/**********************************************
+*fonts
+***********************************************/
+@font-face {
+    font-family: Futura;
+    src: url(../fonts/FuturaStd-Light.otf);
+}
+@font-face {
+    font-family: Heavy;
+    src: url(../fonts/Futura-Heavy-Oblique.ttf);
+}
+@font-face {
+    font-family: Heavy;
+    src: url(../fonts/angleterre-book.ttf);
+}
+html,
+body {
+    height: 100%;
+    font-family: Futura;
+    background-color: #fff;
+}
+@media (min-width: 1240px) { 
+    .container {
+        width: 1240px; 
+    }
+} 
+.center-row {
+    display:table;
+}
+.center {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+.centering img {
+    float: none;
+    margin: 0 auto;
+}
+/*******************************************
+*image
+**********************************************/
+.fill {
+    width: 100%;
+}
+/****************************************************
+*top
+****************************************************/
+.glyphicon {
+    top: 15px;
+}
+.img-top .navbar-nav > li > a > img {
+    margin-top: 10px;
+}
+.img-top .navbar-nav > li > a {
+    padding-top: 8px;
+    color: #000;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #fff;
+}
+.li-border {
+    border-left: 1px solid #b7b1b1;
+}
+.left-inner-addon {
+    position: relative;
+    margin-top: 10px;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    top: 0px;
+}
+/**************************************************/
+.top-container { 
+    position: fixed; 
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+} 
+.top-col2 {
+    padding-right: 0px;
+}
+/****************************************************
+*menu
+****************************************************/
+nav a, nav a:focus, nav a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
+}
+/***************************************************
+*menu canvas
+***************************************************/
+.navbar-theme {
+    background-color: #333;
+}
+.navbar-theme .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-toggle {
+    margin-top: 25px;
+}
+.navbar-ico {
+     color: #fff;
+}
+.navbar-ico .glyphicon {
+    top: 35px;
+}
+.navbar-theme a:focus, .navbar-theme a:hover {
+    color: #fff;
+}
+.bar-canvas {
+    margin-bottom: 0px;
+    background-color: #333;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.list-canvas {
+    position: absolute;
+    right: 55px;
+}
+/***************************************************
+*footer
+****************************************************/
+footer {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #383637;
+}
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+footer a {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+footer li a,footer li a:focus, footer li a:hover {
+    color: #fff;
+}
+footer a,footer a:focus, footer a:hover {
+    color: #fff;
+}    
+.last-column img {
+    padding-left: 10px;
+}
+/************************************************************
+*media queries
+*************************************************************/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /*********************footer********************************/ 
+    .red-phone {
+        margin-top: 20px;
+    }
+    .center-text {
+        text-align: center;
+    }
+    /*********************menu canvas***************************/
+    .li-phone > li > a:focus, .li-phone > li > a:hover, .li-phone > li > a {
+        color: #fff;
+        padding-left: 20px;
+    }
+    .navbar-logo {
+        padding-left: 30px;
+        padding-right: 45px;
+        float: left;
+        height: 50px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px
+    }
+ }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*********************footer********************************/ 
+    .red-phone {
+        margin-top: 20px;
+    }
+    .last-row-tablet {
+        margin-top: 20px;
+    }
+    /*********************menu canvas***************************/
+    .li-phone > li > a:focus, .li-phone > li > a:hover, .li-phone > li > a {
+        color: #fff;
+        padding-left: 20px;
+    }
+    .img-tablet {
+        margin-left: 50px;
+    }
+    .navbar-logo {
+        padding-left: 50px;
+        padding-right: 450px;
+        float: left;
+        height: 50px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+    /*********************footer********************************/    
+    .footer-last-column {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-last-div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer-last-img {
+        padding-left: 0px;
+        margin-left: 5px;
+        padding-right: 10px;
+    }
+    .footer-last-l1 {
+        margin-top: 20px;
+    }
+    .footer-last-div > h3{
+        margin-top: 0px;
+    }
+    .footer-last-m {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .footer-last-color {
+        background-color: #000;
+    }
+    .footer-last-color a div{
+        margin-top: 10px;
+    }
+    .last-footer {
+        background-color: #000;
+    }
+    .row2 {
+        margin-top: 10px;
+    }
+    .last-column {
+        padding-right: 0px;
+    }
+    .col1 p {
+        font-size: 12px;
+    }
+    .last-row, .last-row a {
+        color: #999;
+    }
+    .lib > li {
+        border-right: 1px solid #999;
+    }
+    .lib > li:last-child {
+        border-right: none;
+    }
+    /************************top bar************************/
+    .li-pad li a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .col-pad {
+        padding-left: 0px;
+    }
+    .col-pad .nav {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }   
+    .top-container { 
+        background: url('../images/top/background-topt.png') repeat-x;
+    } 
+}
+@media only screen and (min-width: 1170px) {
+    /*********************footer********************************/ 
+    .footer-last-column {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-last-div {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer-last-img {
+        padding-left: 0px;
+        margin-left: 5px;
+        padding-right: 10px;
+    }
+    .footer-last-l1 {
+        margin-top: 20px;
+    }
+    .footer-last-div > h3{
+        margin-top: 0px;
+    }
+    .footer-last-m {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .footer-last-color {
+        background-color: #000;
+    }
+    .footer-last-color a div{
+        margin-top: 10px;
+    }
+    .last-footer {
+        background-color: #333;
+    }
+    .row2 {
+        margin-top: 10px;
+    }
+    .last-column {
+        padding-right: 0px;
+    }
+    .col1 p {
+        font-size: 12px;
+    }
+    .last-row, .last-row a {
+        color: #999;
+    }
+    .lib > li {
+        border-right: 1px solid #999;
+    }
+    .lib > li:last-child {
+        border-right: none;
+    }
+    /************************top bar************************/
+    .col-pad {
+        padding-left: 0px;
+    }
+    .col-pad .nav {
+        margin-top: 55px;
+    }  
+    .top-container { 
+        background: url('../images/top/background-top.png') repeat-x;
+    } 
+}
+/********************************collapse tablet***********************************/
+@media (max-width: 1023px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

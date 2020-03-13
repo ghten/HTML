@@ -1,0 +1,282 @@
+/****************************************************************
+* Product
+******************************************************************/
+
+/*******************************breadcrumb************************/
+.breadcrumb {
+    background-color: #fff;
+    font-size: 12px;
+}
+.breadcrumb a:focus, .breadcrumb a:hover, .breadcrumb a {
+    color: #000;
+}
+.pad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*change*/
+.pos-breadcrump {
+     margin-top: 20px;
+}
+/*******************************expand image*********************/
+.expand-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #545454;
+    cursor: pointer;
+}
+.expand-image .glyphicon {
+    top: 0px;
+}
+.modal-header {
+    border: transparent;
+}
+#imagepreview {
+    width: 400px; 
+    height: 264px
+}
+/******************************new*********************************/
+.image-new {
+    position: relative;
+}
+.pos-new {
+    position: absolute; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    display: "block";
+}
+/****************************************************************/
+.pr-product {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 70px;
+}
+.product-text h1 {
+    font-weight: 900;
+    font-style: oblique;
+    color: #66cc33;
+    text-transform: uppercase;
+    margin-top: 0px; /*change*/
+}
+.product-text h1 span {
+    font-size: 18px;
+}
+.product-text li .glyphicon {
+    top: 0px;
+}
+.product-text .list-group-itemp {
+    padding: 10px 0 15px;
+    display: block;
+    margin-bottom: -1px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.click > .plus{
+    float: right;
+}
+.plus {
+    border-radius: 10px;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.list-div {
+    display: none;
+    margin-top: 10px;
+}
+.list-div .col-xs-12 {
+    float: none;
+}
+.list-div > ul > li, .list-div > ul > ul > li {
+    color: #999999;
+    list-style-type:disc;
+}
+.li-last {
+    margin-top: 20px;
+}
+.ul1-f {
+    margin-top: 20px;
+}
+
+.list-group-itemp h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list-group {
+    margin-top: 20px;
+}
+.price {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.price span {
+   font-size: 24px;
+   font-weight: bold;
+}
+.pbutton {
+    padding-right: 0px;
+}
+.pbutton .btn-default, .btn-default:hover, .btn-default:focus {
+    background-color: #333333;
+    border-color: #333333;
+    color: #fff;
+}
+.pbutton .btn {
+    padding: 6px 16px;
+}
+.pbutton .glyphicon {
+    top: 0px;
+}
+.reds {
+    margin-top: 80px;
+}
+.reds li {
+    padding: 0;
+}
+.glyphiconp a .glyphicon {
+    font-size: 50px;
+    float: left;
+    width: 35%;
+    top: 0px;
+}
+.glyphiconp a .last-glyphicon {
+    float: none;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.glyphiconp a .last-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.glyphiconp .glyphicon {
+    margin-top: 20px;
+}
+.gly-text {
+    float: left;
+    width: 65%;
+    margin-top: 5px;
+}
+.glyphiconp {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding-right: 0px;
+}
+.glyphiconp a, .glyphiconp a:focus, .glyphiconp a:hover {
+    color: #ccc;
+}  
+.sh-last {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.last-glyphicon {
+    float: none;
+    width: 100%;
+    font-size: 50px;
+}
+.pcategory {
+    margin-top: 50px;
+}
+.pcategory h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.pcategory h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.pcategory a,  .pcategory a:hover, .pcategory a:focus {
+    color: #000;
+}
+.pcategory div img {
+    border: 1px solid #e3e3e3;
+}    
+.imgcom {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.imgcom1 {
+    padding-top: 25px;
+}
+.sp-imgcom1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pinf {
+    margin-top: 25px;
+    color: #999;
+}
+.text-bold {
+    color: #000;
+    font-weight: bold;
+}
+#Carousel2{
+    margin-bottom: 20px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 100%);
+}
+.icon-prev, .icon-next {
+    color: #bbb;
+}
+/************************************************************
+*media queries
+*************************************************************/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .top-image {
+        margin-bottom: 10px;
+    }
+    .pbutton {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+ }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .top-image {
+        margin-top: 200px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+    .top-image {
+        margin-top: 200px;
+    }
+    body {
+        padding-top: 120px;
+    }
+    /*******************************top*******************************/
+    .topcontainer {
+        background: rgba(0, 0, 0, 0) url("../images/products/background-product-topt.jpg") repeat-x scroll 0 0;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    body {
+        padding-top: 150px;
+    }
+    .top-image {
+        margin-top: 200px;
+    }
+    .pbutton a {
+        float: right;
+    }
+    /*******************************top*******************************/
+    .topcontainer {
+        background: rgba(0, 0, 0, 0) url("../images/products/background-product-top.jpg") repeat-x scroll 0 0;
+    }
+}
+
+    
